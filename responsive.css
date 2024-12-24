@@ -1,0 +1,40 @@
+@media (max-width: 1080px) {
+    .card .card_note {
+      display: none;
+    }
+    .partners {
+      flex-wrap: wrap;
+    }
+  }
+  @media (max-width: 950px) {
+    .card {
+      width: calc(calc(100% / 2) - 15px);
+    }
+  }
+  @media (max-width: 575px) {
+    .card {
+      width: 100%;
+    }
+    .intro {
+      width: 80%;
+    }
+    .hero {
+      padding: 40px;
+    }
+    .partners {
+      gap: 20px;
+    }
+  }
+  @media (max-width: 400px) {
+    .navbar nav {
+      gap: 10px;
+    }
+    .footer {
+      gap: 32px;
+    }
+    .footer h4 {
+      flex-direction: column;
+      gap: 12px;
+    }
+  }
+  
